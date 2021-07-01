@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	background: #232323;
+}
+.heading{
+	font-size: 25px;
+	background: skyblue;
+	text-align: center;
+	margin: 0;
+	color: white;
+}
+.heading span{
+	font-size: 2em;
+	width: auto;
+	font-weight: bolder;
+	text-transform: uppercase;
+
+}
+h1,h2{
+	margin:0;
+}
+.strip{
+	text-align: center;
+	background: white;
+
+}
+button{
+	background: transparent;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+.container{
+	max-width: 768px;
+	margin: 0 auto;
+	
+}
+span{
+	width: 25%;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	
+
+}
+
+
+.square{
+	padding: 14.66%;
+	box-sizing: border-box;
+	margin: 1.7%;
+	float: left;
+	border-radius: 15%;
+}
+.container:after{
+	clear: both;
+	content: "";
+	display: block;
+
+}
+.button1:hover{
+	background: blue;
+
+}
+
+
+
